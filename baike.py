@@ -9,3 +9,7 @@ with open('baike.html', 'w', encoding="utf-8") as f:
 duanzis = re.findall('<span>(.*?)</span>', resp.text, re.S)
 for duanzi in duanzis:
     print(duanzi)
+	
+	
+	
+	#6666
